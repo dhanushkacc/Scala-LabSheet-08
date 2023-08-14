@@ -1,0 +1,130 @@
+2023.08.14 20:45:38 INFO  Started: Metals version 1.0.0 in folders 'C:\Users\DILSHAN\Desktop\scala 08' for client Visual Studio Code 1.81.1.
+Aug 14, 2023 8:45:38 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 14, 2023 8:45:38 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 14, 2023 8:45:38 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 14, 2023 8:45:39 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\DILSHAN\Desktop\scala 08\.metals\metals (H2 2.1)
+Aug 14, 2023 8:45:39 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Aug 14, 2023 8:45:39 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.017s)
+Aug 14, 2023 8:45:39 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Aug 14, 2023 8:45:39 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Aug 14, 2023 8:45:39 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Aug 14, 2023 8:45:39 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Aug 14, 2023 8:45:39 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Aug 14, 2023 8:45:39 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Aug 14, 2023 8:45:39 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.020s)
+2023.08.14 20:45:39 INFO  time: initialize in 0.68s
+2023.08.14 20:45:42 INFO  Running List(C:\Users\DILSHAN\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\DILSHAN\Desktop\scala 08)
+2023.08.14 20:45:42 INFO  Attempting to connect to the build server...
+2023.08.14 20:45:42 INFO  Running BSP server List(C:\Users\DILSHAN\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\DILSHAN\Desktop\scala 08\.scala-build\ide-options-v2.json, C:\Users\DILSHAN\Desktop\scala 08)
+2023.08.14 20:45:42 WARN  No build session currently active to reload.
+2023.08.14 20:45:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\DILSHAN\Desktop\scala 08\.metals\bsp.trace.json or C:\Users\DILSHAN\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.14 20:45:43 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.14 20:45:43 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.14 20:45:43 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.14 20:45:43 INFO  no build target found for C:\Users\DILSHAN\Desktop\scala 08\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.14 20:45:43 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.14 20:45:44 INFO  BSP server: Starting compilation server
+2023.08.14 20:45:45 INFO  time: code lens generation in 5.9s
+2023.08.14 20:45:52 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.14 20:45:52 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.14 20:45:52 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.14 20:45:52 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.14 20:45:52 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.14 20:45:52 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.14 20:45:52 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.14 20:45:54 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.14 20:45:54 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.14 20:45:54 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.14 20:45:54 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.14 20:45:54 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.14 20:45:55 INFO  time: Connected to build server in 13s
+2023.08.14 20:45:55 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.14 20:45:55 INFO  time: Imported build in 0.22s
+2023.08.14 20:45:56 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.14 20:45:56 INFO  time: indexed workspace in 0.86s
+2023.08.14 20:45:58 INFO  time: compiled project_bd2c96d2de in 2.55s
+2023.08.14 20:46:13 WARN  no build target for: A:\UCSC\2nd year\Funtional Programing\6.6scala\new2\src\main\scala\qu3.scala
+2023.08.14 20:46:17 WARN  no build target for: A:\UCSC\2nd year\Funtional Programing\6.6scala\new2\src\main\scala\qu1.scala
+2023.08.14 20:50:32 ERROR scalafmt: C:\Users\DILSHAN\Desktop\scala 08\Q1.scala:15: error: [dialect scala3] ; expected but this found
+In this code, I've named the variable holding the lambda function calculateInterest. I've also added a deposit variable with a value of 50000, and then I use the calculateInterest lambda function to calculate the interest for that deposit. Finally, I print out the calculated interest along with the deposit amount.
+   ^
+2023.08.14 20:50:32 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:50:32 INFO  time: compiled project_bd2c96d2de in 0.65s
+2023.08.14 20:50:39 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:50:39 INFO  time: compiled project_bd2c96d2de in 0.17s
+2023.08.14 20:50:43 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:50:44 INFO  time: compiled project_bd2c96d2de in 1.19s
+2023.08.14 20:52:00 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:52:00 INFO  time: compiled project_bd2c96d2de in 0.31s
+2023.08.14 20:52:07 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:52:07 INFO  time: compiled project_bd2c96d2de in 0.1s
+2023.08.14 20:52:08 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:52:08 INFO  time: compiled project_bd2c96d2de in 0.1s
+2023.08.14 20:52:08 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:52:08 INFO  time: compiled project_bd2c96d2de in 96ms
+2023.08.14 20:52:08 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:52:10 INFO  time: compiled project_bd2c96d2de in 0.64s
+2023.08.14 20:52:13 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:52:13 INFO  time: compiled project_bd2c96d2de in 0.34s
+2023.08.14 20:52:13 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:52:14 INFO  time: compiled project_bd2c96d2de in 0.44s
+2023.08.14 20:52:54 WARN  no build target for: A:\UCSC\2nd year\Funtional Programing\6.6scala\new2\src\main\scala\qu2.scala
+2023.08.14 20:53:03 WARN  no build target for: A:\UCSC\2nd year\Funtional Programing\6.6scala\new2\src\main\scala\qu2.scala
+2023.08.14 20:54:16 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:54:16 INFO  time: compiled project_bd2c96d2de in 0.31s
+2023.08.14 20:54:25 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:54:25 INFO  time: compiled project_bd2c96d2de in 0.36s
+2023.08.14 20:54:29 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.14 20:54:29 INFO  time: compiled project_bd2c96d2de in 0.36s
+Aug 14, 2023 8:54:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\DILSHAN\Desktop\scala 08\.metals\.reports\metals-full\r_compiler-error_1692026673501
+Aug 14, 2023 8:54:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\DILSHAN\Desktop\scala 08\.metals\.reports\metals-full\r_compiler-error_1692026673971
+2023.08.14 20:54:34 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:54:34 INFO  time: compiled project_bd2c96d2de in 0.3s
+2023.08.14 20:54:40 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:54:40 INFO  time: compiled project_bd2c96d2de in 0.24s
+2023.08.14 20:54:43 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:54:43 INFO  time: compiled project_bd2c96d2de in 0.23s
+2023.08.14 20:54:48 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:54:48 WARN  Could not load snapshot text for C:\Users\DILSHAN\Desktop\scala 08\Q2.scala
+2023.08.14 20:54:48 INFO  time: compiled project_bd2c96d2de in 0.27s
+2023.08.14 20:55:20 WARN  no build target for: A:\UCSC\2nd year\Funtional Programing\6.6scala\new2\src\main\scala\qu3.scala
+2023.08.14 20:58:26 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:58:26 INFO  time: compiled project_bd2c96d2de in 0.24s
+2023.08.14 20:58:27 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:58:27 INFO  time: compiled project_bd2c96d2de in 0.21s
+2023.08.14 20:58:47 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:58:47 INFO  time: compiled project_bd2c96d2de in 0.24s
+2023.08.14 20:58:50 INFO  compiling project_bd2c96d2de (3 scala sources)
+2023.08.14 20:58:50 INFO  time: compiled project_bd2c96d2de in 0.38s
+2023.08.14 20:59:18 ERROR scalafmt: C:\Users\DILSHAN\Desktop\scala 08\Q3.scala:6: error: [dialect scala3] illegal start of simple expression
+object Q3 extends App {
+^
+2023.08.14 20:59:18 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:59:18 INFO  time: compiled project_bd2c96d2de in 84ms
+2023.08.14 20:59:19 WARN  Could not load snapshot text for C:\Users\DILSHAN\Desktop\scala 08\Q3.scala
+2023.08.14 20:59:20 WARN  Could not load snapshot text for C:\Users\DILSHAN\Desktop\scala 08\Q3.scala
+2023.08.14 20:59:20 WARN  Could not load snapshot text for C:\Users\DILSHAN\Desktop\scala 08\Q3.scala
+2023.08.14 20:59:21 WARN  Could not load snapshot text for C:\Users\DILSHAN\Desktop\scala 08\Q3.scala
+2023.08.14 20:59:21 WARN  Could not load snapshot text for C:\Users\DILSHAN\Desktop\scala 08\Q3.scala
+2023.08.14 20:59:21 WARN  Could not load snapshot text for C:\Users\DILSHAN\Desktop\scala 08\Q3.scala
+2023.08.14 20:59:33 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:59:33 INFO  time: compiled project_bd2c96d2de in 76ms
+2023.08.14 20:59:35 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:59:35 INFO  time: compiled project_bd2c96d2de in 0.23s
+2023.08.14 20:59:37 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.14 20:59:37 INFO  time: compiled project_bd2c96d2de in 0.21s
